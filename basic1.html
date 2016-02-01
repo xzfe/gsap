@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gsap</title>
+    <style>
+    *{
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color:#000;
+    }
+    #demo {
+        width: 692px;
+        height: 90px;
+        background-color: #333;
+        padding: 10px;
+    }
+    .bar{
+      display: none;
+      width: 60px;
+      height: 10px;
+      background-color: orange;
+    }
+    #logo {
+        position: relative;
+        width: 160px;
+        height: 70px;
+        background: url(img/gsap-logo-black.jpg) no-repeat;
+        background-color: #90e500;
+        color: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 10px solid #000;
+    }
+    .text{
+      margin-left: 65px;
+      line-height: 60px;
+      height: 60px;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div id="demo">
+      <div class="bar"></div>
+      <div id="logo">
+        <div class="text">Green sock</div>
+      </div>
+    </div>
+
+    <!-- <script src="../lib/jquery2/jquery.min.js" charset="utf-8"></script> -->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js" charset="utf-8"></script>
+    <script src="../lib/gsap/min/TweenMax.min.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>
